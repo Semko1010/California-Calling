@@ -173,7 +173,7 @@ header div:nth-of-type(2) button:hover {
   grid-row: 7/8;
   position: absolute;
   top: 15vh;
-  left: 45vw;
+  left: 40vw;
   z-index: 1;
 }
 
@@ -184,14 +184,14 @@ header div:nth-of-type(2) button:hover {
   margin: 40vh 0 0 0;
 }
 .section3 article {
-  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20vh 0 55vh 0;
+  padding: 20vh 0 90vh 0;
 }
 .section3 article div:nth-of-type(1) {
   width: 25vw;
+  margin: 0 0 0 5vw;
   color: white;
 }
 .section3 article div:nth-of-type(1) p {
@@ -201,21 +201,37 @@ header div:nth-of-type(2) button:hover {
   font-size: 5rem;
 }
 .section3 article div:nth-of-type(2) {
-  width: 45vw;
+  width: 50vw;
 }
-.section3 article div:nth-of-type(2) p {
+.section3 article div:nth-of-type(2) p:nth-of-type(1) {
   font-family: LarishNeue;
   color: white;
   font-size: 2rem;
 }
+.section3 article div:nth-of-type(2) p:nth-of-type(2) {
+  font-size: 1.3rem;
+  color: white;
+  font-family: LarishNeue;
+  padding: 3vh 0 0 0;
+}
 .section3 img:nth-of-type(1) {
-  width: 50%;
+  width: 55%;
   position: absolute;
-  top: 0vh;
+  left: 10vw;
+  top: 80vh;
 }
 .section3 img:nth-of-type(2) {
   width: 25%;
   position: absolute;
+  left: 60vw;
+  top: 100vh;
+}
+.section3 img:nth-of-type(3) {
+  width: 30%;
+  position: absolute;
+  left: 75vw;
+  top: 135vh;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */

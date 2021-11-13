@@ -179,7 +179,7 @@ header {
         grid-row: 7/8;
         position: absolute;
         top: 15vh;
-        left: 45vw;
+        left: 40vw;
         z-index: 1;
     }
 }
@@ -192,13 +192,13 @@ header {
     background: black;
     margin: 40vh 0 0 0;
     article {
-        position: relative;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 20vh 0 55vh 0;
+        padding: 20vh 0 90vh 0;
         div:nth-of-type(1) {
             width: 25vw;
+            margin: 0 0 0 5vw;
             color: white;
             p {
                 font-size: 1.5rem;
@@ -208,21 +208,37 @@ header {
             }
         }
         div:nth-of-type(2) {
-            width: 45vw;
-            p {
+            width: 50vw;
+            p:nth-of-type(1) {
                 font-family: LarishNeue;
                 color: white;
                 font-size: 2rem;
             }
+            p:nth-of-type(2) {
+                font-size: 1.3rem;
+                color: white;
+                font-family: LarishNeue;
+                padding: 3vh 0 0 0;
+            }
         }
     }
     img:nth-of-type(1) {
-        width: 50%;
+        width: 55%;
         position: absolute;
-        top: 0vh;
+        left: 10vw;
+        top: 80vh;
     }
     img:nth-of-type(2) {
         width: 25%;
         position: absolute;
+        left: 60vw;
+        top: 100vh;
+    }
+    img:nth-of-type(3) {
+        width: 30%;
+        position: absolute;
+        left: 75vw;
+        top: 135vh;
+        z-index: -1;
     }
 }
